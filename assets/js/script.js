@@ -6,3 +6,11 @@ $(document).ready(function(){
  function submit() {
   window.location.reload();
  }
+
+ function showComment() {
+  if (document.getElementById('radio3').checked) {
+      document.getElementById('ifYes').style.display = 'block';
+  }
+  else document.getElementById('ifYes').style.display = 'none';
+
+}
