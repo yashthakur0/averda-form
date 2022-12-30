@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    /* background-color: #dee9ff; */
+    background-image: linear-gradient(to right top, #090979, #0044aa, #0074cf, #00a4ea, #00d4ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.registration-form{
+	padding: 50px 0;
+}
+
+.registration-form form{
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 15px;
+    /* border-top-left-radius: 30px; */
+    /* border-bottom-left-radius: 30px; */
+    /* border-bottom-right-radius: 30px; */
+    /* border-top-right-radius: 30px; */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-title{
+	text-align: center;
+    max-width: 30vh;
+    /* background-color: #5891ff; */
+}
+
+.registration-form .form-field{
+	border-bottom: 1px solid #000;
+}
+
+.registration-form .form-field-input {
+    margin-left: 5vh;
+    display: inline-flex;
+}
+
+.registration-form .form-field-input span {
+    margin: 0px 0px;
+}
+
+.registration-form .form-field-input input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    max-width: 10rem;
+}
+
+.registration-form .form-head .form-field-input .form-check {
+    margin-bottom: 2rem;
+}
+
+.registration-form .form-head .form-field-input input{
+    border-bottom: 1px solid #000;
+}
+
+.registration-form .item{
+	/* border-radius: 20px; */
+    /* margin-bottom: 25px; */
+    /* padding: 10px 20px; */
+}
+
+
+.form-group {
+    margin-bottom: 0rem !important;
+}
+
+.form-control {
+    border: none;
+    
+}
+
+
+.registration-form .questions{
+    display: inline-flex;
+    border-bottom: 1px solid #9fadca;
+    margin-bottom: 5px;
+}
+
+.registration-form .questions .options{
+    margin-right: 1rem;
+    display: inline-flex;
+}
+
+.form-check  {
+    margin-bottom: 1rem;
+    padding-left: 2.3rem;
+}
+
+.question .item {
+    width: 35rem;
+}
+
+.registration-form .create-account{
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.form-bottom {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .registration-form form{
+        padding: 50px 20px;
+    }
+
+    .registration-form .form-icon{
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
