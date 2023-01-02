@@ -40,6 +40,16 @@ hr {
     flex-direction: column;
 }
 
+.registration-form .form-head span img {
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+
+.registration-form .form-head span h2 {
+    padding-left: 8rem;
+}
+
 .registration-form .form-title{
 	text-align: end;
     display: inline-flex;
