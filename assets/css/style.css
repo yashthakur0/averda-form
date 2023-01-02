@@ -51,7 +51,7 @@ hr {
 }
 
 .registration-form .form-title{
-	text-align: end;
+	/* text-align: end; */
     display: inline-flex;
     align-self: flex-end;
 }
@@ -109,6 +109,7 @@ hr {
     display: inline-flex;
     border-bottom: 1px solid #9fadca;
     margin-bottom: 5px;
+    padding: 0px 10px;
 }
 
 .registration-form .questions .options{
@@ -139,6 +140,89 @@ hr {
 .form-bottom {
     text-align: center;
 }
+
+  .loginPopup {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 45vh;
+    /* bottom: 40vh; */
+    /* left: 5rem; */
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid ;
+    border-radius: 10px;
+    z-index: 9;
+  }
+
+  .border-gradient {
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #090979, #0044aa, #0074cf, #00a4ea, #00d4ff) border-box;
+    border-radius: 30px;
+    border: 4px solid transparent;
+  }
+  
+  .border-gradient {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: darkblue;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+
+  .formPopup {
+    padding: 2rem;
+    width: 20vw;
+    height: 15vh;
+  }
+
+  .formContainer {
+    max-width: 100%;
+    /* padding: 20px; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formContainer input[type=text],
+
+  .formContainer input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+  }
+
+  .formContainer input[type=text]:focus,
+  .formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+   .cancel {
+    border-radius: 30px;
+    /* padding: 10px 20px; */
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: rgb(201, 67, 67); */
+    border: 1px solid black;
+    color: black;
+    /* margin-top: 20px; */
+
+  }
+
+  .formContainer .btn:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
 
 @media (max-width: 576px) {
     .registration-form form{
