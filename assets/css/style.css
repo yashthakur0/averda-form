@@ -236,3 +236,51 @@ hr {
         line-height: 70px;
     }
 }
+
+@media (min-width:1200px) {
+    zhjgvjksg
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .registration-form form {
+        max-width: 90vw;
+    }
+
+    .registration-form .form-head span img {
+        width: 10rem;
+        right: 0rem;
+    }
+
+    .registration-form .form-head span h2 {
+        padding-left: 13rem;
+        font-size: 24px;
+    }
+
+    .registration-form .form-field-input input {
+        max-width: 8rem;
+    }
+
+    .question .item {
+        width: 40vw;
+    }
+
+    .registration-form .questions .options {
+        margin-left: 3rem !important;
+    }
+
+}
+
+@media screen and (orientation:landscape)and (min-device-width:768px) and (max-device-width:1179px) {
+    .registration-form form {
+        max-width: 90vw;
+    }
+    
+    .question .item {
+        width: 50vw;
+    }
+
+    .registration-form .form-head span img {
+        width: 14rem;
+        right: 0rem;
+    }
+}
