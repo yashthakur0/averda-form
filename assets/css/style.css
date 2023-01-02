@@ -41,13 +41,15 @@ hr {
 }
 
 .registration-form .form-head span img {
-    width: 100px;
-    height: 70px;
+    width: auto;
+    height: auto;
+    position: relative;
     float: left;
+    right: 1rem;
 }
 
 .registration-form .form-head span h2 {
-    padding-left: 8rem;
+    padding-left: 15rem;
 }
 
 .registration-form .form-title{
