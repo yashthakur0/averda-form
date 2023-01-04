@@ -13,14 +13,15 @@ function submitForm() {
  }
 
  function validateFormm() {
+  console.log('Validating form....');
   let checkAns = document.getElementsByTagName('input[]:checked');
 
   if (checkAns != null) {
     this.openForm()
-    console.log('all checked')
+    console.log('validating form completed')
   } else {
-    window.location.reload()
-    console.log('some are not checked')
+    // window.location.reload()
+    console.log('error while validating form')
   }
  }
 
@@ -65,6 +66,6 @@ $(document).ready(function() {
     $('.wrapper').fadeOut(500);
     $('.popup-box').removeClass('transform-in').addClass('transform-out');
 
-    e.preventDefault();
+    location.reload();
   });
 });

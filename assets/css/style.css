@@ -71,6 +71,7 @@ hr {
 
 .registration-form .form-field-input {
     display: inline-flex;
+    padding: 0 1rem;
 }
 
 .registration-form .form-field-input input {
@@ -88,7 +89,7 @@ hr {
 .registration-form .form-head .form-field-input .label {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-start;
     padding-top: 1vh;
 }
 
@@ -214,31 +215,28 @@ hr {
     outline: none;
   }
 
-   .cancel {
-    border-radius: 30px;
-    /* padding: 10px 20px; */
-    font-size: 18px;
-    font-weight: bold;
-    /* background-color: rgb(201, 67, 67); */
-    border: 1px solid black;
-    color: black;
-    /* margin-top: 20px; */
-
-  }
-
   .formContainer .btn:hover,
   .openButton:hover {
     opacity: 1;
   }
 
-  #subscribe
-  {
-    background:#ddd;
-    padding:15px 30px 15px 30px;
+  #subscribe  {
+    background:#5791ff;
     margin:10px;
-    border:none;
     cursor:pointer;
-    border-radius:30px;}
+    border-radius: 30px;
+    padding: 7px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+/* border:none; */
+/* padding:15px 30px 15px 30px; */
+/* border-radius:30px; */
 
 .wrapper {
     width: 100%;
@@ -258,13 +256,16 @@ hr {
   position: absolute;
   top: 50%;
   left: 50%;
-  box-shadow: 0px 2px 16px rgba(255,255, 255, .9);
+  /* box-shadow: 0px 2px 16px rgba(255,255, 255, .9); */
+  box-shadow: 0px 2px 16px rgba(106,186,228, .9);
+  /* box-shadow: 0px 2px 16px rgba(64,106,222, .9); */
   border-radius: 20px;
   text-align: center;
 
 }
 .popup-box h2 {
   color: #ffffff;
+  font-weight: 300;
 }
 .popup-box h3 {
   color: #888;
